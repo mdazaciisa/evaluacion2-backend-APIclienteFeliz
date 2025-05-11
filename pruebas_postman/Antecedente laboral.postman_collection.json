@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "0a92325b-4e7c-4e58-83ab-65d6527775b6",
+		"name": "Antecedente laboral",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44698952",
+		"_collection_link": "https://marcela-4506111.postman.co/workspace/marcela's-Workspace~ddef2a89-bcd3-4983-8a45-33d4308783cf/collection/44698952-0a92325b-4e7c-4e58-83ab-65d6527775b6?action=share&source=collection_link&creator=44698952"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"candidato_id\": 4,\n  \"empresa\": \"Empresa X\",\n  \"cargo\": \"Analista\",\n  \"funciones\": \"Análisis de datos\",\n  \"fecha_inicio\": \"2020-01-01\",\n  \"fecha_termino\": \"2022-12-31\",\n  \"usuario_id\": 4\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/evaluacion2/antecedentelaboral",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"evaluacion2",
+						"antecedentelaboral"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/evaluacion2/antecedentelaboral/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"evaluacion2",
+						"antecedentelaboral",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"empresa\": \"Empresa Y\",\n  \"cargo\": \"Analista Senior\",\n  \"funciones\": \"Análisis avanzado\",\n  \"fecha_inicio\": \"2020-01-01\",\n  \"fecha_termino\": \"2023-12-31\",\n  \"usuario_id\": 4\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/evaluacion2/antecedentelaboral/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"evaluacion2",
+						"antecedentelaboral",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/evaluacion2/antecedentelaboral/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"evaluacion2",
+						"antecedentelaboral",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

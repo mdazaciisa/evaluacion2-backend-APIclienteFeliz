@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "5c5754b9-952d-42ae-b0c7-2ade039e9c76",
+		"name": "Usuario",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44698952",
+		"_collection_link": "https://marcela-4506111.postman.co/workspace/marcela's-Workspace~ddef2a89-bcd3-4983-8a45-33d4308783cf/collection/44698952-5c5754b9-952d-42ae-b0c7-2ade039e9c76?action=share&source=collection_link&creator=44698952"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/evaluacion2/usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"evaluacion2",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"nombre\": \"María\",\n  \"apellido\": \"López\",\n  \"email\": \"maria@example.com\",\n  \"contraseña\": \"123456\",\n  \"fecha_nacimiento\": \"1995-04-20\",\n  \"telefono\": \"912345678\",\n  \"direccion\": \"Av. Las Palmas 123\",\n  \"rol\": \"Candidato\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/evaluacion2/usuario",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"evaluacion2",
+						"usuario"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/evaluacion2/usuario/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"evaluacion2",
+						"usuario",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"nombre\": \"María\",\n  \"apellido\": \"López Soto\",\n  \"email\": \"marialopez@example.com\",\n  \"fecha_nacimiento\": \"1995-04-20\",\n  \"telefono\": \"912345678\",\n  \"direccion\": \"Calle Nueva 45\",\n  \"rol\": \"Candidato\",\n  \"estado\": \"Activo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/evaluacion2/usuario/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"evaluacion2",
+						"usuario",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"telefono\": \"999888777\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/evaluacion2/Usuario/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"evaluacion2",
+						"Usuario",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/evaluacion2/Usuario/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"evaluacion2",
+						"Usuario",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
